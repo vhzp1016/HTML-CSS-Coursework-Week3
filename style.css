@@ -47,7 +47,7 @@ header {
     
 }
 
-.Vienvenido {
+.Bienvenido {
     text-align: center;
     font-size: 35px;
 }
@@ -155,7 +155,38 @@ header {
         width: 25px;
     }
 
-    
+    .titular {
+        margin-top: 5px;
+    }
+
+    .Bienvenido {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .imagen-2 {
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .imagen-3 {
+        flex-direction: column;
+
+    }
+    .grid {
+        flex-direction: column;
+        
+    }
+
+    .tortasmundo {
+        flex-direction: column;
+    }
+
+    .mundo {
+        flex-direction: column;
+    }
+
+   
 }
 
 @media (min-width: 900px) {
