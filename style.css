@@ -1,1 +1,120 @@
 /*  Add your styling here */
+
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none; 
+    margin-right: 25px; 
+  
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.listamenu {
+    display: flex;
+    padding: 30px;
+    margin-top: -195px;
+}
+
+.imagen-1 {
+    width: 320px;
+    height: 320px;
+    margin: 30px;
+
+       
+}
+
+.titular {
+    text-align: right;
+    padding: 15px;
+}
+
+header {
+    background-color:rgb(206, 203, 203) 
+  
+}
+
+.contenedor {
+    margin-top:35px;
+    
+}
+
+.Vienvenido {
+    text-align: center;
+    font-size: 35px;
+}
+
+.texto {
+    text-justify: auto;
+}
+
+.imagen-2 {
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    background-color:rgb(206, 203, 203) 
+    
+
+}
+
+.grid {
+    width: 33%;
+    padding: 38px;
+    margin-bottom: 40px;  
+    
+    
+}
+
+.contenedor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.gris {
+    background-color: rgb(206, 203, 203);
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.imagen-3{
+    display: block;
+    margin: auto;
+    
+}
+
+.tortasmundo{
+    background-color: gray;
+    width: 200px;   
+    height: 25px;
+    
+   
+}
+
+.mundo{
+    background-color: gray;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+}
+
+@media (min-width: 540px ) {
+
+    
+}
