@@ -12,11 +12,12 @@
 
     <body>
         <header>
+            <img class="menu-icon" src="menu.png">  
             <div class="menu">
                 <div class="contenedor">
                     <img class="imagen-1" src="https://i.pinimg.com/564x/52/69/87/526987f48ecf1faa626bb2a35e559c9b.jpg" alt="">
                 </div>
-                     <nav>
+                      <nav>
                         <ul class="listamenu">
                             <li>Tortas del Mundo</li>
                             <li>Más tortas</li>
@@ -29,6 +30,7 @@
                         </ul>
                     </nav>
                 </div> 
+                
             
                 <div>
                     <h1 class="titular">Los mejores pasteles de la ciudad <br>entregados en tu puerta</h1>
@@ -39,7 +41,7 @@
 
         <section>
                 <div>
-                    <h1 class="Vienvenido">Vienvenido</h1>       
+                    <h1 class="Vienvenido">Bienvenido</h1>       
                 
                         <p class="texto">Que coman pasteles es la traducción tradicional de la frase en francés 
                         «Qu'ils mangent de la brioche», supuestamente dicha por una «gran princesa» 
@@ -59,13 +61,13 @@
                   
         </section>
 
-        <header>
-            <div>
+        <section>
+            <div class="contenedor1">
                 <img class="imagen-2" src="https://i.pinimg.com/564x/a7/af/2a/a7af2ad60e668e69172341c507b754b0.jpg">
-            </div>
+            </div>            
+        </section>      
 
-        </header>
-        
+             
          <section>
             <div class="contenedor">
                 <div class="contenedor-grid">
@@ -99,17 +101,25 @@
         </section>
 
             <section>
-                <header>
-                    <h1 class="tortasmundo">Tortas del Mundo</h1>
-                    <h1 class="tortasmundo">Tortas para todos</h1>
-                    <h1 class="tortasmundo">Tortas y ganache</h1> 
-                    <h1 class="mundo">Postres la rricura</h1> 
+                <div class="contenedor2">
+                    <br><h1 class="tortasmundo">Tortas del Mundo</h1>
+                    <br><h1 class="tortasmundo">Tortas para todos</h1>
+                    <br><h1 class="tortasmundo">Tortas y ganache</h1> 
+                    <h1 class="mundo">Postres la Ricura la mejor opción</h1> 
 
-                </header>
-                
-
-
+                </div>              
             </section>
+
+            <script>
+
+                $('.menu-icon').click(function(){
+                    $('header nav').slideToggle();
+
+                })
+
+
+
+            </script>
 
 
             
